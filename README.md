@@ -1,0 +1,1 @@
+This is microservice based system handling last mile delivery eliminating single point failure, captures and sends dispatch riders specific location. Kafka handles messaging between microservices, redis handles caching, rather than going to the db for rider location all the time, redis stops that, zookeeper manages the kafka component. 
